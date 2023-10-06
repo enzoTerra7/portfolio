@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Meu Portifólio</title>
+</head>
+
+<body class="flex w-screen h-screen bg-gray-900 flex-col">
+    <nav class="flex w-full items-center justify-end p-8 gap-6 flex-col items-center md:flex-row divide-y divide-white md:divide-none">
+        <a href="#" class="text-lg font-medium text-[#c0550e] text-md cursor-default w-full text-center pt-6 md:w-fit md:text-start md:pt-0">
+            Home
+        </a>
+        <a href="./how-i-am" class="text-lg font-medium transition-colors duration-300 cursor-pointer text-white hover:text-[#f79327] text-md w-full text-center pt-6 md:w-fit md:text-start md:pt-0">
+            Quem sou eu?
+        </a>
+        <a href="./portfolio" class="text-lg font-medium transition-colors duration-300 cursor-pointer text-white hover:text-[#f79327] text-md w-full text-center pt-6 md:w-fit md:text-start md:pt-0">
+            Portifólio
+        </a>
+        <a href="./contact" class="text-lg font-medium transition-colors duration-300 cursor-pointer text-white hover:text-[#f79327] text-md w-full text-center pt-6 md:w-fit md:text-start md:pt-0">
+            Contato
+        </a>
+    </nav>
+    <main class="flex flex-1 items-center justify-evenly gap-4 p-4 flex-wrap">
+        <img alt="Foto do Enzo" src="https://picsum.photos/seed/picsum/200/300" class="w-72 lg:min-w-[320px] object-cover h-72 lg:h-[25vw] lg:w-[25vw] rounded-full" />
+        <div class="flex flex-1 items-center md:items-start xl:max-w-[30vw] min-w-[320px] gap-2 p-4 flex-col">
+            <h1 class="text-2xl md:text-5xl xl:text-7xl font-normal text-white text-md">
+                Enzo
+            </h1>
+            <h2 class="text-xl md:text-2xl xl:text-4xl font-normal text-[#f79327] text-md">
+                Terra Apolinário
+            </h2>
+            <small
+                class="text-base md:text-xl xl:text-2xl text-gray-400 font-medium text-center md:text-start"
+            >
+                Um desenvolvedor ReactJS (NextJS) & NestJS
+            </small>
+        </div>
+    </main>
+</body>
+
+</html>
