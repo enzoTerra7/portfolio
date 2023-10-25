@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="w-full">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@3.9.3/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body
+    class="flex w-full min-h-screen p-4 box-sizing bg-gray-900 lg:p-8 flex-col"
+  >
+    <nav
+      class="flex w-full items-center justify-end gap-6 flex-col items-center md:flex-row divide-y divide-white md:divide-none"
+    >
+      <a
+        href="./index.html"
+        class="text-lg font-medium transition-colors duration-300 cursor-pointer text-white hover:text-[#f79327] w-full text-center pt-6 md:w-fit md:text-start md:pt-0"
+      >
+        Home
+      </a>
+      <a
+        href="./portfolio"
+        class="text-lg font-medium transition-colors duration-300 cursor-pointer text-white hover:text-[#f79327] w-full text-center pt-6 md:w-fit md:text-start md:pt-0"
+      >
+        Portfólio
+      </a>
+      <a
+        href="#"
+        class="text-lg font-medium text-[#c0550e] cursor-default w-full text-center pt-6 md:w-fit md:text-start md:pt-0"
+      >
+        Currículo
+      </a>
+      <a
+        href="./contact"
+        class="text-lg font-medium transition-colors duration-300 cursor-pointer text-white hover:text-[#f79327] w-full text-center pt-6 md:w-fit md:text-start md:pt-0"
+      >
+        Contato
+      </a>
+    </nav>
+    <!-- Breadcrumb -->
+    <div class="hidden lg:block text-sm breadcrumbs">
+      <ul>
+        <li>
+          <a
+            href="./index.html"
+            class="text-lg font-medium transition-colors duration-300 cursor-pointer text-gray-600 hover:text-[#f79327] w-full text-center pt-6 md:w-fit md:text-start md:pt-0"
+            >Home</a
+          >
+        </li>
+        <li>
+          <a
+            href="#"
+            class="text-lg font-medium text-gray-50 cursor-default w-full text-center pt-6 md:w-fit md:text-start md:pt-0"
+            >Currículo</a
+          >
+        </li>
+      </ul>
+    </div>
+
+    <div class="hidden lg:flex divider"></div>
+
+    <main
+      class="w-full lg:w-[60vw] flex flex-col items-center flex-1 gap-4 lg:gap-8 mx-auto"
+    >
+      <div class="flex gap-4 flex-wrap items-center">
+        <img
+          alt="Foto do Enzo"
+          src="https://picsum.photos/seed/picsum/200/300"
+          class="w-44 object-cover h-44 rounded-full"
+        />
+        <div class="flex flex-col gap-0 justify-center">
+          <h1 class="text-lg md:text-xl xl:text-2xl font-normal text-white">
+            Enzo
+          </h1>
+          <h2
+            class="text-base md:text-lg xl:text-xl font-normal text-[#f79327]"
+          >
+            Terra Apolinário
+          </h2>
+          <small
+            class="text-xs md:text-sm xl:text-base text-gray-400 font-medium text-center md:text-start"
+          >
+            Um desenvolvedor ReactJS (NextJS) & NestJS
+          </small>
+        </div>
+      </div>
+      <section
+        id="personalData"
+        class="w-full place-items-center grid grid-cols-1 lg:grid-cols-2 gap-4"
+      >
+        <div class="flex flex-col gap-4 w-full lg:w-fit">
+          <h1 class="text-lg md:text-xl xl:text-2xl font-normal text-white">
+            Dados Pessoais
+          </h1>
+          <p class="text-base md:text-lg xl:text-xl font-normal text-gray-400">
+            <strong class="text-gray-950 dark:text-gray-300">Nome:</strong> Enzo
+          </p>
+          <p class="text-base md:text-lg xl:text-xl font-normal text-gray-400">
+            <strong class="text-gray-950 dark:text-gray-300"
+              >Cidade:</strong
+            >
+            São Miguel Arcanjo - SP
+          </p>
+          <p class="text-base md:text-lg xl:text-xl font-normal text-gray-400">
+            <strong class="text-gray-950 dark:text-gray-300"
+              >Data de nascimento:</strong
+            >
+            15/08/2003
+          </p>
+          <p class="text-base md:text-lg xl:text-xl font-normal text-gray-400">
+            <strong class="text-gray-950 dark:text-gray-300">Telefone:</strong>
+            (15)98831-5916
+          </p>
+          <p class="text-base md:text-lg xl:text-xl font-normal text-gray-400">
+            <strong class="text-gray-950 dark:text-gray-300">Email: </strong>
+            <a
+              class="hover:underline hover:text-[#f79327] underline-color-[#f79327]"
+              href="mailto:enzotrr@gmail.com"
+              >enzotrr@gmail.com</a
+            >
+          </p>
+        </div>
+        <div class="flex flex-col gap-4 w-full lg:w-fit">
+          <h1 class="text-lg md:text-xl xl:text-2xl font-normal text-white">
+            Habilidades
+          </h1>
+          <p class="text-base md:text-lg xl:text-xl font-normal text-gray-400">
+            HTML
+          </p>
+          <p class="text-base md:text-lg xl:text-xl font-normal text-gray-400">
+            CSS
+          </p>
+          <p class="text-base md:text-lg xl:text-xl font-normal text-gray-400">
+            JavaScript & Typescript
+          </p>
+          <p class="text-base md:text-lg xl:text-xl font-normal text-gray-400">
+            ReactJS & NextJS
+          </p>
+          <p class="text-base md:text-lg xl:text-xl font-normal text-gray-400">
+            NestJS
+          </p>
+        </div>
+      </section>
+      <section
+        id="aboutMe"
+        class="w-full place-items-center w-full lg:max-w-[88%] gap-4"
+      >
+        <div class="flex flex-col gap-1">
+          <h1
+            class="text-lg md:text-xl xl:text-2xl font-normal text-white mb-3"
+          >
+            Sobre mim
+          </h1>
+          <p class="text-xs indent-4 md:text-base font-normal text-gray-400">
+            Um desenvolvedor ReactJS (NextJS) & NestJS que está desbravando o
+            mundo da programação!
+          </p>
+          <p class="text-xs indent-4 md:text-base font-normal text-gray-400">
+            Comecei a programar aos 16, quando estava no 3º colegial e foi amor
+            a primeira linha. De lá pra cá comecei a me aprofundar mais e mais
+            em programação, principalmente no front-end. Participei de maratonas
+            como as "Next Level Week" da rocketseat para aprimorar mais e mais
+            meus códigos.
+          </p>
+          <p class="text-xs indent-4 md:text-base font-normal text-gray-400">
+            Aos 17 comecei como freelancer na plataforma de 99freelas, fazendo
+            pequenos trabalhos de alteração de estilo em alguns componentes.
+            Nessa época peguei e comecei a estudar ReactJS e depois NextJS e
+            descobri minha área
+          </p>
+          <p class="text-xs indent-4 md:text-base font-normal text-gray-400">
+            Em 2022, consegui meu primeiro emprego fixo como frontend e tive
+            certeza do que queria para vida. Com o tempo me especializei em
+            frontend usando sempre ReactJS, NextJS, chegando a conseguir a
+            medalha de certificação em ReactJS do linkedin, estando entre os 15%
+            melhores colocados, e em css, estando entre os melhores 5%.
+          </p>
+          <p class="text-xs indent-4 md:text-base font-normal text-gray-400">
+            Conforme as necessidades do trabalho fui aprendendo novas coisas,
+            aprendi NodeJS, e seu framework NestJS. Aprendi um pouco de PHP,
+            python, etc.
+          </p>
+        </div>
+      </section>
+      <section
+        id="professionalExperience"
+        class="w-full place-items-center w-full lg:max-w-[88%] gap-4"
+      >
+        <div class="flex flex-col gap-4">
+          <h1 class="text-lg md:text-xl xl:text-2xl font-normal text-white">
+            Experiência Professional
+          </h1>
+          <div class="flex flex-col gap-2">
+            <p
+              class="text-lg md:text-xl font-bold text-gray-950 dark:text-gray-300"
+            >
+              2020 - 2021
+            </p>
+            <ul class="list-disc ml-8">
+              <li>
+                <p class="text-xs md:text-base font-normal text-gray-400">
+                  Freelancer
+                </p>
+              </li>
+            </ul>
+          </div>
+          <div class="flex flex-col gap-2">
+            <p
+              class="text-lg md:text-xl font-bold text-gray-950 dark:text-gray-300"
+            >
+              2021 - 2022
+            </p>
+            <ul class="list-disc ml-8">
+              <li>
+                <p class="text-xs md:text-base font-normal text-gray-400">
+                  Estagiário de T.I na prefeitura municipal de São Miguel
+                  Arcanjo
+                </p>
+              </li>
+            </ul>
+          </div>
+          <div class="flex flex-col gap-2">
+            <p
+              class="text-lg md:text-xl font-bold text-gray-950 dark:text-gray-300"
+            >
+              2022 - Atualmente
+            </p>
+
+            <ul class="list-disc ml-8">
+              <li>
+                <p class="text-xs md:text-base font-normal text-gray-400">
+                  Desenvolvedor frontend na empresa EvolutionSoft
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section
+        id="languages"
+        class="w-full place-items-center w-full lg:max-w-[88%] gap-4"
+      >
+        <div class="flex flex-col gap-4">
+          <h1
+            class="lg:text-center text-lg md:text-xl xl:text-2xl font-normal text-white"
+          >
+            Linguagens
+          </h1>
+          <div class="grid grid-cols-1 lg:grid-cols-4 gap-4 place-items-center">
+            <div class="flex flex-col gap-2 w-full">
+              <p
+                class="text-lg md:text-xl font-bold text-gray-950 dark:text-gray-300"
+              >
+                Inglês
+              </p>
+              <p class="text-xs md:text-base font-normal text-gray-400">
+                Avançado
+              </p>
+            </div>
+            <div class="flex flex-col gap-2 w-full lg:items-center">
+              <p
+                class="text-lg md:text-xl font-bold text-gray-950 dark:text-gray-300"
+              >
+                Espanhol
+              </p>
+              <p class="text-xs md:text-base font-normal text-gray-400">
+                Técnico
+              </p>
+            </div>
+            <div class="flex flex-col gap-2 w-full lg:items-center">
+              <p
+                class="text-lg md:text-xl font-bold text-gray-950 dark:text-gray-300"
+              >
+                Francês
+              </p>
+              <p class="text-xs md:text-base font-normal text-gray-400">
+                Básico
+              </p>
+            </div>
+            <div class="flex flex-col gap-2 w-full lg:items-end">
+              <p
+                class="text-lg md:text-xl font-bold text-gray-950 dark:text-gray-300"
+              >
+                Italiano
+              </p>
+              <p class="text-xs md:text-base font-normal text-gray-400">
+                Básico
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        id="courses"
+        class="w-full place-items-center w-full lg:max-w-[88%] gap-4"
+      >
+        <div class="flex flex-col gap-4">
+          <h1
+            class="lg:text-center text-lg md:text-xl xl:text-2xl font-normal text-white"
+          >
+            Cursos
+          </h1>
+          <div class="flex flex-col gap-2">
+            <p
+              class="text-lg md:text-xl font-bold text-gray-950 dark:text-gray-300"
+            >
+              HTML & CSS & JS
+            </p>
+            <ul class="list-disc ml-8">
+              <li>
+                <p class="text-xs md:text-base font-normal text-gray-400">
+                  <strong
+                    ><a
+                      href="https://www.udemy.com/course/curso-completo-do-desenvolvedor-web/"
+                      class="underline"
+                      >Curso Completo de Desenvolvimento Web - 2018</a
+                    ></strong
+                  >
+                  - 34 horas
+                </p>
+              </li>
+              <li>
+                <p class="text-xs md:text-base font-normal text-gray-400">
+                  <strong
+                    ><a
+                      href="https://www.udemy.com/course/web-completo/"
+                      class="underline"
+                      >Desenvolvimento Web Completo - 20 cursos + 20 projetos</a
+                    ></strong
+                  >
+                  - 116 horas
+                </p>
+              </li>
+              <li>
+                <p class="text-xs md:text-base font-normal text-gray-400">
+                  <strong
+                    ><a
+                      href="https://www.rocketseat.com.br/discover"
+                      class="underline"
+                      >Discovery (Rocketseat)</a
+                    ></strong
+                  >
+                  - 5 horas
+                </p>
+              </li>
+            </ul>
+          </div>
+          <div class="flex flex-col gap-2">
+            <p
+              class="text-lg md:text-xl font-bold text-gray-950 dark:text-gray-300"
+            >
+              ReactJS & NextJS
+            </p>
+            <ul class="list-disc ml-8">
+              <li>
+                <p class="text-xs md:text-base font-normal text-gray-400">
+                  <strong
+                    ><a
+                      href="https://www.udemy.com/course/curso-de-reactjs-nextjs-completo-do-basico-ao-avancado/"
+                      class="underline"
+                      >Curso Completo de Desenvolvimento Web - 2018</a
+                    ></strong
+                  >
+                  - 92,5 horas
+                </p>
+              </li>
+            </ul>
+          </div>
+          <div class="flex flex-col gap-2">
+            <p
+              class="text-lg md:text-xl font-bold text-gray-950 dark:text-gray-300"
+            >
+              Inglês
+            </p>
+            <ul class="list-disc ml-8">
+              <li>
+                <p class="text-xs md:text-base font-normal text-gray-400">
+                  <strong
+                    ><a
+                      href="https://www.udemy.com/course/aprenda-ingles-do-intermediario-ao-avancado/"
+                      class="underline"
+                      >Aprenda inglês, do Intermediário ao Avançado</a
+                    ></strong
+                  >
+                  - 80,5 horas
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
