@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="w-full dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@3.9.3/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Meu Portfólio</title>
+  </head>
+
+  <body
+    class="flex w-full min-h-screen p-4 box-sizing bg-gray-900 lg:p-8 flex-col dark"
+  >
+    <script>
+      function copyText(string) {
+        console.log("chamado");
+        navigator.clipboard.writeText(string);
+        console.log("copiado");
+      }
+    </script>
+    <nav
+      class="flex w-full items-center justify-end gap-6 flex-col items-center md:flex-row divide-y divide-white md:divide-none"
+    >
+      <a
+        href="./index.html"
+        class="text-lg font-medium transition-colors duration-300 cursor-pointer text-white hover:text-[#f79327] w-full text-center pt-6 md:w-fit md:text-start md:pt-0"
+      >
+        Home
+      </a>
+      <a
+        href="#"
+        class="text-lg font-medium text-[#c0550e] cursor-default w-full text-center pt-6 md:w-fit md:text-start md:pt-0"
+      >
+        Portfólio
+      </a>
+      <a
+        href="./curriculum.html"
+        class="text-lg font-medium transition-colors duration-300 cursor-pointer text-white hover:text-[#f79327] w-full text-center pt-6 md:w-fit md:text-start md:pt-0"
+      >
+        Currículo
+      </a>
+      <a
+        href="./contact.html"
+        class="text-lg font-medium transition-colors duration-300 cursor-pointer text-white hover:text-[#f79327] w-full text-center pt-6 md:w-fit md:text-start md:pt-0"
+      >
+        Contato
+      </a>
+    </nav>
+    <!-- Breadcrumb -->
+    <div class="hidden lg:block text-sm breadcrumbs dark text-gray-300">
+      <ul>
+        <li>
+          <a
+            href="./index.html"
+            class="text-lg font-medium transition-colors duration-300 cursor-pointer text-gray-600 hover:text-[#f79327] w-full text-center pt-6 md:w-fit md:text-start md:pt-0"
+            >Home</a
+          >
+        </li>
+        <li>
+          <a
+            href="#"
+            class="text-lg font-medium text-gray-50 cursor-default w-full text-center pt-6 md:w-fit md:text-start md:pt-0"
+            >Portfólio</a
+          >
+        </li>
+      </ul>
+    </div>
+
+    <hr class="bg-gray-600 h-[1px] mt-2 mb-6 border-none" />
+
+    <main
+      class="w-full lg:w-[60vw] flex flex-col items-center flex-1 gap-4 lg:gap-8 mx-auto"
+    >
+      <h1
+        class="text-lg md:text-2xl xl:text-4xl text-center font-black text-[#c0550e]"
+      >
+        Veja meus projetos
+      </h1>
+      <section
+        id="courses"
+        class="w-full place-items-center gap-4 md:gap-12 grid grid-cols-1 lg:grid-cols-2"
+      >
+        <div class="card card-compact w-full bg-gray-800 shadow-xl">
+          <figure>
+            <img src="./images/projectPhoto.jpg" alt="Shoes" />
+          </figure>
+          <div class="card-body text-gray-100">
+            <h2 class="card-title text-2xl font-bold">Projeto 1</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
+              malesuada placerat risus, in pellentesque enim rutrum eget. Nullam
+              pretium id mauris in vestibulum. Suspendisse leo nunc, fringilla
+              vel consectetur vel, molestie quis eros. Sed nec orci in sapien
+              posuere convallis eu id eros. Donec fringilla feugiat quam, vitae
+              euismod nisi hendrerit sed. Nullam faucibus nisi at commodo
+              blandit. Sed ac dictum lectus, sed euismod ante. Phasellus
+              ultrices massa urna, quis ornare sapien viverra in. Fusce metus
+              nulla, ultricies ut sagittis ac, maximus at sem. Pellentesque eu
+              pretium erat, eget feugiat sapien.
+            </p>
+            <div class="card-actions justify-end">
+              <button class="btn border-none hover:bg-[#c0550e] hover:scale-[1.1] bg-[#c0550e] text-white">Ver projeto</button>
+            </div>
+          </div>
+        </div>
+        <div class="card card-compact w-full bg-gray-800 shadow-xl">
+          <figure>
+            <img src="./images/projectPhoto.jpg" alt="Shoes" />
+          </figure>
+          <div class="card-body text-gray-100">
+            <h2 class="card-title text-2xl font-bold">Projeto 2</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
+              malesuada placerat risus, in pellentesque enim rutrum eget. Nullam
+              pretium id mauris in vestibulum. Suspendisse leo nunc, fringilla
+              vel consectetur vel, molestie quis eros. Sed nec orci in sapien
+              posuere convallis eu id eros. Donec fringilla feugiat quam, vitae
+              euismod nisi hendrerit sed. Nullam faucibus nisi at commodo
+              blandit. Sed ac dictum lectus, sed euismod ante. Phasellus
+              ultrices massa urna, quis ornare sapien viverra in. Fusce metus
+              nulla, ultricies ut sagittis ac, maximus at sem. Pellentesque eu
+              pretium erat, eget feugiat sapien.
+            </p>
+            <div class="card-actions justify-end">
+              <button class="btn border-none hover:bg-[#c0550e] hover:scale-[1.1] bg-[#c0550e] text-white">Ver projeto</button>
+            </div>
+          </div>
+        </div>
+        <div class="card card-compact w-full bg-gray-800 shadow-xl">
+          <figure>
+            <img src="./images/projectPhoto.jpg" alt="Shoes" />
+          </figure>
+          <div class="card-body text-gray-100">
+            <h2 class="card-title text-2xl font-bold">Projeto 3</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
+              malesuada placerat risus, in pellentesque enim rutrum eget. Nullam
+              pretium id mauris in vestibulum. Suspendisse leo nunc, fringilla
+              vel consectetur vel, molestie quis eros. Sed nec orci in sapien
+              posuere convallis eu id eros. Donec fringilla feugiat quam, vitae
+              euismod nisi hendrerit sed. Nullam faucibus nisi at commodo
+              blandit. Sed ac dictum lectus, sed euismod ante. Phasellus
+              ultrices massa urna, quis ornare sapien viverra in. Fusce metus
+              nulla, ultricies ut sagittis ac, maximus at sem. Pellentesque eu
+              pretium erat, eget feugiat sapien.
+            </p>
+            <div class="card-actions justify-end">
+              <button class="btn border-none hover:bg-[#c0550e] hover:scale-[1.1] bg-[#c0550e] text-white">Ver projeto</button>
+            </div>
+          </div>
+        </div>
+        <div class="card card-compact w-full bg-gray-800 shadow-xl">
+          <figure>
+            <img src="./images/projectPhoto.jpg" alt="Shoes" />
+          </figure>
+          <div class="card-body text-gray-100">
+            <h2 class="card-title text-2xl font-bold">Projeto 4</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
+              malesuada placerat risus, in pellentesque enim rutrum eget. Nullam
+              pretium id mauris in vestibulum. Suspendisse leo nunc, fringilla
+              vel consectetur vel, molestie quis eros. Sed nec orci in sapien
+              posuere convallis eu id eros. Donec fringilla feugiat quam, vitae
+              euismod nisi hendrerit sed. Nullam faucibus nisi at commodo
+              blandit. Sed ac dictum lectus, sed euismod ante. Phasellus
+              ultrices massa urna, quis ornare sapien viverra in. Fusce metus
+              nulla, ultricies ut sagittis ac, maximus at sem. Pellentesque eu
+              pretium erat, eget feugiat sapien.
+            </p>
+            <div class="card-actions justify-end">
+              <button class="btn border-none hover:bg-[#c0550e] hover:scale-[1.1] bg-[#c0550e] text-white">Ver projeto</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
